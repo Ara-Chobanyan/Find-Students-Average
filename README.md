@@ -1,5 +1,8 @@
 # find-students-average
-Working on a stimple program to create a group of students, and inputting there grades to find there average.
+A stimple program to create a group of students, and inputting there grades to find there average.
+
+# What I learned
+In Progress ...
 
 # TODO
 - [ ] getAdminInput has repeating code need to refactor that.
