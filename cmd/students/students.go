@@ -37,7 +37,7 @@ func getAdminInput() *Student {
 	fmt.Println("Please Enter Name")
 	scanner.Scan()
 	name = scanner.Text()
-
+	//Bad code here repeating my self need to refactor this
 	fmt.Println("Please Enter Grades with space in between")
 	scanner.Scan()
 	grades = convertStringToSlice(scanner.Text())
