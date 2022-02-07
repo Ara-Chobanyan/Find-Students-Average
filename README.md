@@ -3,8 +3,7 @@ A simple program where the user can manage a group of students, and be able to f
 # Todo
 
 - [x] Make a function that finds the average of a slice.
-- [ ] Make a data structure of students
-- [ ] Make a function that creates new students.
+- [ ] Make a data structure of students, as well a function that creates new students.
 
 # Credit
 Helped me for converting user inputs into slices
