@@ -1,5 +1,5 @@
-# find-students-average
-A simple program where you can input a students name and grade, so that you can find out there average grade.
+# Purpose
+A simple program where the user can manage a group of students, and to be able to find the average grade of each student with ease.
 # Todo
 
 - [x] Make a function that finds the average of a slice.
