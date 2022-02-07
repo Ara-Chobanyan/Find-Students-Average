@@ -9,6 +9,6 @@
 # Brainstorm
 
 #Credit
+Helped me for converting user inputs into slices
 https://stackoverflow.com/questions/43599253/read-space-separated-integers-from-stdin-into-int-slice
 
-Helped me for converting user inputs into slices
