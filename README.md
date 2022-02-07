@@ -6,7 +6,6 @@ In Progress ...
 
 # TODO
 - [ ] getAdminInput has repeating code need to refactor that.
-- [ ] Create test for the student package.
 - [ ] Try to make unit test for  student package.
 
 # Credit
