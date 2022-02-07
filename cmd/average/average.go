@@ -9,5 +9,3 @@ func FindAverage(grades []int) float32 {
 	}
 	return (float32(sum)) / (float32(length))
 }
-
-//O(n)
