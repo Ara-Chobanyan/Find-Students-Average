@@ -17,12 +17,12 @@ type Student struct {
 // 	fmt.Println(c.Name, c.Grades)
 // }
 
-// NewStudent - takes in a string and a []int then returns a refernce to Student to avoid duplications
+// NewStudent - takes in a string and a []int then returns a pointer to Student to avoid duplications
 func NewStudent(name string, grades []int) *Student {
 	return &Student{name, grades}
 }
 
-// GetStudent - Starts the functions that create new students and displays them
+// GetStudent - Starts the functions that create new students and returns them
 func GetStudent() *Student {
 	student := getAdminInput()
 	return student
