@@ -4,7 +4,7 @@ A simple program to create a group of students, and inputting there grades to fi
 
 # What I learned
 
-- Learned basic concepts of creating test for small math functions or conversations.
+- Learned basic concepts of creating tests for small math functions or conversations.
 - Gotten much more comfortable with taking in users inputs via bufio NewScanner function.
 - Learned more about using maps and how to add to them or to delete keys within them
 - As well learned on how to combine inputs and functions, to manipulate maps but for allowing users to do it on there end.
