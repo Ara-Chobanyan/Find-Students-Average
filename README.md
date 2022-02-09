@@ -4,7 +4,7 @@ A simple program to create a group of students, and inputting there grades to fi
 
 # What I learned
 
-- Learned basic concepts of creating tests for small math functions or conversations.
+- Basic concepts of creating tests for small math functions or conversations.
 - Gotten much more comfortable with taking in users inputs via bufio NewScanner function.
 - Learned more about using maps and how to manipulate them via custom functions.
 - As well learned on how to combine inputs and functions, to manipulate maps but for allowing users to do it on there end.
@@ -13,9 +13,9 @@ A simple program to create a group of students, and inputting there grades to fi
 
 # What I struggled with
 
-- Struggled in creating tests for taking in user inputs, really need to work on those types of test and to do more research on them.
-- Struggled for a bit in making a test to compare two slice variables, then I realized oh wait I need to check the indexes.
-- Had trouble in creating exportable functions with a custom return type, so I had to keep experimenting with there return values.
+- In creating tests for taking in user inputs, really need to work on those types of test and to do more research on them.
+- Had issues for a bit in making a test to compare two slice variables, then I realized oh wait I need to check the indexes.
+- Trouble in creating exportable functions with a custom return type, so I had to keep experimenting with there return values.
 
 # Credit
 
