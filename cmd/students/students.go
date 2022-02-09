@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Ara-Chobanyan/student-average/cmd/stringtoslice"
+	"github.com/Ara-Chobanyan/find-students-average/cmd/stringtoslice"
 )
 
 type Student struct {
