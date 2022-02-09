@@ -13,7 +13,8 @@ func MenuOptions() (string, error) {
 	fmt.Println("Please make your choice")
 	fmt.Println("1) Create a new group of students")
 	fmt.Println("2) Read a already made group of students")
-	fmt.Println("3) Exit")
+	fmt.Println("3) Delete a Student from the group")
+	fmt.Println("4) Exit")
 
 	userInput := bufio.NewScanner(os.Stdin)
 	userInput.Scan()
@@ -21,7 +22,7 @@ func MenuOptions() (string, error) {
 	userChoice := userInput.Text()
 	choice = userChoice
 
-	if choice == "1" || choice == "2" || choice == "3" {
+	if choice == "1" || choice == "2" || choice == "3" || choice == "4" {
 		return choice, nil
 	} else {
 		return "", errors.New("Invalid input")

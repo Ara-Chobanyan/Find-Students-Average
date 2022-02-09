@@ -36,6 +36,14 @@ func main() {
 			fmt.Println("---------------------")
 			fmt.Println("Group:", b)
 			fmt.Println("---------------------")
+		} else if a == "3" {
+			fmt.Println("Enter Student name")
+			scanner := bufio.NewScanner(os.Stdin)
+			scanner.Scan()
+			scanner.Text()
+
+			name := scanner.Text()
+			delete(b, name)
 		} else {
 			break
 		}
