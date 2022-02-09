@@ -33,7 +33,9 @@ func main() {
 			}
 			amountOfStudents(num, b)
 		} else if a == "2" {
-			fmt.Println(b)
+			fmt.Println("---------------------")
+			fmt.Println("Group:", b)
+			fmt.Println("---------------------")
 		} else {
 			break
 		}
@@ -41,6 +43,7 @@ func main() {
 
 }
 
+// amountOfStudents - Takes in a int and a map to create a map of students with there grades and find the students average
 func amountOfStudents(num int, group map[string]float32) {
 	for i := 0; i < num; i++ {
 		createStudent := students.GetStudent()
@@ -49,16 +52,3 @@ func amountOfStudents(num int, group map[string]float32) {
 		group[createStudent.Name] = a
 	}
 }
-
-/*
-I can take this a step futher and give options to put in the students grade.
-Then it reset back at the menu and you can recheck the grades
-
-
-Create a infinite for loop that gives the user 3 options
-1. Create a new list of students.
-2. Look at the current list of students will be empty at first.
-3. Quit
-
-Need
-*/
