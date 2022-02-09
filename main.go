@@ -16,7 +16,10 @@ func main() {
 	b := make(map[string]float32)
 
 	for {
-		a, _ := menu.MenuOptions()
+		a, err := menu.MenuOptions()
+		if err != nil {
+			fmt.Println(err)
+		}
 
 		if a == "1" {
 			fmt.Println("Enter the amount of students")
@@ -37,10 +40,12 @@ func main() {
 			fmt.Println("Group:", b)
 			fmt.Println("---------------------")
 		} else if a == "3" {
+			// Deletes a student from the map
 			fmt.Println("Enter Student name")
 			scanner := bufio.NewScanner(os.Stdin)
 			scanner.Scan()
 			scanner.Text()
+			//Takes in the key which is the students name and deletes it
 
 			name := scanner.Text()
 			delete(b, name)

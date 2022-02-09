@@ -20,4 +20,4 @@ func BenchmarkFindAverage(b *testing.B) {
 	}
 }
 
-//Seems like the type conversion does not hit performance at all, then again I am a noob so what do I know
+//Seems like the type conversion does not hit performance in this scenario, then again I am a noob so what do I know
