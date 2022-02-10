@@ -16,6 +16,7 @@ func main() {
 	b := make(map[string]float32)
 
 	for {
+		// Begins the program
 		a, err := menu.MenuOptions()
 		if err != nil {
 			fmt.Println(err)
