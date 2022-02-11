@@ -21,3 +21,4 @@ func BenchmarkFindAverage(b *testing.B) {
 }
 
 //Seems like the type conversion does not hit performance in this scenario, then again I am a noob so what do I know
+// To be honest I have a feeling that this bench mark test is proabay not even needed at all.
