@@ -10,7 +10,6 @@ A simple program to create a group of students, input their grades, and to find 
 - How to combine inputs and functions and to manipulate maps (but allowing for users to do it on their end).
 - Using structs to create a custom data structure.
 - Using pointers to create the student data structure to avoid duplication (still not too sure on that, need to experiment more).
-- Played around with pointers in creating the student data structure to avoid duplication. (Still not too sure on that need to play around more)
 
 # What I struggled with
 
