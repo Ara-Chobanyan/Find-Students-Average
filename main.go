@@ -6,9 +6,9 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/Ara-Chobanyan/find-students-average/cmd/average"
-	"github.com/Ara-Chobanyan/find-students-average/cmd/menu"
-	"github.com/Ara-Chobanyan/find-students-average/cmd/students"
+	"github.com/Ara-Chobanyan/find-students-average/logic/average"
+	"github.com/Ara-Chobanyan/find-students-average/logic/menu"
+	"github.com/Ara-Chobanyan/find-students-average/logic/students"
 )
 
 func main() {
