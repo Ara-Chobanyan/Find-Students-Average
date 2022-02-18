@@ -50,6 +50,23 @@ func main() {
 
 			name := scanner.Text()
 			delete(b, name)
+		} else if a == "4" {
+			// Updates a student from the map
+			fmt.Println("Enter Student name")
+			scanner := bufio.NewScanner(os.Stdin)
+			scanner.Scan()
+			scanner.Text()
+			name := scanner.Text()
+
+			var f float32
+			fmt.Println("Enter A New Grade")
+			_, err := fmt.Scanf("%f", &f)
+
+			if err != nil {
+				fmt.Println(err)
+			}
+
+			b[name] = f
 		} else {
 			break
 		}
