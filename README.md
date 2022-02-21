@@ -1,4 +1,4 @@
-# find-students-average
+# Find-Students-Average
 
 A simple program to create a group of students, input their grades, and to find there averages.
 
