@@ -20,7 +20,3 @@ A simple program to create a group of students, input their grades, and to find 
 # Credit
 
 - Helped me for converting user inputs into slices https://stackoverflow.com/questions/43599253/read-space-separated-integers-from-stdin-into-int-slice
-
-# Future Goal
-
-I plan to add on top of this project by adding a data base to it and even a terminal tui to make it look nice.
